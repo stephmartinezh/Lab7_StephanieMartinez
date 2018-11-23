@@ -1,14 +1,43 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab7_stephaniemartinez;
 
-/**
- *
- * @author Lenovo
- */
-public class Asesinato {
+
+public class Asesinato extends Delitos {
+    String arma;
+    int victimas;
+
+    public Asesinato() {
+        super();
+    }
+
+    public Asesinato(String arma, int victimas, String descripcion, String lgm, boolean culpable) {
+        super(descripcion, lgm, culpable);
+        this.arma = arma;
+        this.victimas = victimas;
+    }
+
+    public String getArma() {
+        return arma;
+    }
+
+    public void setArma(String arma) {
+        this.arma = arma;
+    }
+
+    public int getVictimas() {
+        return victimas;
+    }
+
+    @Override
+    public String toString() {
+        return "Asesinato{" + "arma=" + arma + ", victimas=" + victimas + '}';
+    }
+    
+
+    public void setVictimas(int victimas) {
+        this.victimas = victimas;
+    }
+    
+    
     
 }

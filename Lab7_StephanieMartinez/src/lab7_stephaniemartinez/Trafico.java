@@ -1,14 +1,42 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab7_stephaniemartinez;
 
-/**
- *
- * @author Lenovo
- */
-public class Trafico {
+
+public class Trafico extends Delitos {
+    String nombre;
+    double peso;
+
+    public Trafico() {
+        super();
+    }
+
+    public Trafico(String nombre, double peso, String descripcion, String lgm, boolean culpable) {
+        super(descripcion, lgm, culpable);
+        this.nombre = nombre;
+        this.peso = peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    @Override
+    public String toString() {
+        return "Trafico{" + "nombre=" + nombre + ", peso=" + peso + '}';
+    }
+
+    
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+    
     
 }

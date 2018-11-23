@@ -1,14 +1,41 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab7_stephaniemartinez;
 
-/**
- *
- * @author Lenovo
- */
-public class Robo {
+
+public class Robo extends Delitos {
+    String nombre;
+    int valor;
+
+    public Robo() {
+        super();
+    }
+
+    public Robo(String nombre, int valor, String descripcion, String lgm, boolean culpable) {
+        super(descripcion, lgm, culpable);
+        this.nombre = nombre;
+        this.valor = valor;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getValor() {
+        return valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Robo{" + "nombre=" + nombre + ", valor=" + valor + '}';
+    }
+
+    
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
     
 }
