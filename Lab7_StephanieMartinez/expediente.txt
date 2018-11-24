@@ -1,0 +1,34 @@
+          Exepediente
+Nombre: Stephanie Martinez
+Edad: 18
+Numero de ID: 0801-2001-03034
+Numero de Celda: 1
+
+Delitos:0. [Asesinato: smg ,12, , , ]Años por cumplir: 1          Exepediente
+Nombre: Stephanie Martinez
+Edad: 18
+Numero de ID: 0801-2001-03034
+Numero de Celda: 1
+
+Delitos:0. [Asesinato: smg ,12, , , ]Años por cumplir: 1          Exepediente
+Nombre: Stephanie Martínez
+Edad: 18
+Numero de ID: 0801-2001-03034
+Numero de Celda: 1
+
+Delitos:
+
+  0. [Trafico: des, 5.0, Robo: mouse, 200, Asesinato: smg ,13, , , ]
+  1. [Trafico: des, 5.0, Robo: mouse, 200, Asesinato: smg ,13, , , ]
+  2. [Trafico: des, 5.0, Robo: mouse, 200, Asesinato: smg ,13, , , ]
+Años por cumplir: 3          Exepediente
+Nombre: Alejandro
+Edad: 19
+Numero de ID: 0801-1999-01234
+Numero de Celda: 4
+
+Delitos:
+
+  0. [Robo: arroz, 56, , , ]
+
+Años por cumplir: 1
