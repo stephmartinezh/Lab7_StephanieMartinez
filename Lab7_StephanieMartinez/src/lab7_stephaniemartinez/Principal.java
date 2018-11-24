@@ -949,7 +949,7 @@ public class Principal extends javax.swing.JFrame {
             BufferedReader br = null;
             FileReader fr = null;
             try {
-                archivo = new File("./expediente.txt");
+                archivo = new File("./Expediente.txt");
                 fw = new FileWriter(archivo, true);
                 bw = new BufferedWriter(fw);
                 bw.write("          Exepediente\nNombre: " + criminales.get(pos).getNombre() + "\n");
