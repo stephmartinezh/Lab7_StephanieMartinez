@@ -1,19 +1,21 @@
-
 package lab7_stephaniemartinez;
 
-
 public class Delitos {
+
     String descripcion;
     String lgm;
-    boolean culpable;
+    String culpable;
+    String fin;
 
     public Delitos() {
+        
     }
 
-    public Delitos(String descripcion, String lgm, boolean culpable) {
+    public Delitos(String descripcion, String lgm, String culpable, String fin) {
         this.descripcion = descripcion;
         this.lgm = lgm;
         this.culpable = culpable;
+        this.fin = fin;
     }
 
     public String getDescripcion() {
@@ -32,17 +34,25 @@ public class Delitos {
         this.lgm = lgm;
     }
 
-    public boolean isCulpable() {
+    public String isCulpable() {
         return culpable;
     }
 
-    public void setCulpable(boolean culpable) {
+    public void setCulpable(String culpable) {
         this.culpable = culpable;
+    }
+
+    public String getFin() {
+        return fin;
+    }
+
+    public void setFin(String fin) {
+        this.fin = fin;
     }
 
     @Override
     public String toString() {
-        return "Delitos{" + "descripcion=" + descripcion + ", lgm=" + lgm + ", culpable=" + culpable + '}';
+        return descripcion + ", " + lgm + ", " + culpable;
     }
-    
+
 }

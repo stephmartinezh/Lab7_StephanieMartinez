@@ -9,8 +9,8 @@ public class Secuestro extends Delitos {
         super();
     }
 
-    public Secuestro(int tiempo, int edad, String descripcion, String lgm, boolean culpable) {
-        super(descripcion, lgm, culpable);
+    public Secuestro(int tiempo, int edad, String descripcion, String lgm, String culpable, String fin) {
+        super(descripcion, lgm, culpable, fin);
         this.tiempo = tiempo;
         this.edad = edad;
     }
@@ -33,7 +33,7 @@ public class Secuestro extends Delitos {
 
     @Override
     public String toString() {
-        return "Secuestro{" + "tiempo=" + tiempo + ", edad=" + edad + '}';
+        return "Secuestro: " + tiempo + ", " + edad;
     }
 
 }

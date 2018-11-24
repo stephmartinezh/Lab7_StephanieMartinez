@@ -1,8 +1,7 @@
-
 package lab7_stephaniemartinez;
 
-
 public class Asesinato extends Delitos {
+
     String arma;
     int victimas;
 
@@ -10,8 +9,8 @@ public class Asesinato extends Delitos {
         super();
     }
 
-    public Asesinato(String arma, int victimas, String descripcion, String lgm, boolean culpable) {
-        super(descripcion, lgm, culpable);
+    public Asesinato(String arma, int victimas, String descripcion, String lgm, String culpable, String fin) {
+        super(descripcion, lgm, culpable, fin);
         this.arma = arma;
         this.victimas = victimas;
     }
@@ -30,14 +29,13 @@ public class Asesinato extends Delitos {
 
     @Override
     public String toString() {
-        return "Asesinato{" + "arma=" + arma + ", victimas=" + victimas + '}';
+        return "Asesinato: " + arma + " ," + victimas ;
     }
-    
 
+   
+    
     public void setVictimas(int victimas) {
         this.victimas = victimas;
     }
-    
-    
-    
+
 }

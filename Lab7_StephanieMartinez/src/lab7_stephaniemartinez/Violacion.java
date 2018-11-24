@@ -1,16 +1,15 @@
-
 package lab7_stephaniemartinez;
 
+public class Violacion extends Delitos {
 
-public class Violacion extends Delitos{
     int edad;
 
     public Violacion() {
         super();
     }
 
-    public Violacion(int edad, String descripcion, String lgm, boolean culpable) {
-        super(descripcion, lgm, culpable);
+    public Violacion(int edad, String descripcion, String lgm, String culpable, String fin) {
+        super(descripcion, lgm, culpable, fin);
         this.edad = edad;
     }
 
@@ -24,7 +23,7 @@ public class Violacion extends Delitos{
 
     @Override
     public String toString() {
-        return "Violacion{" + "edad=" + edad + '}';
+        return "Violacion: " +edad ;
     }
-    
+
 }

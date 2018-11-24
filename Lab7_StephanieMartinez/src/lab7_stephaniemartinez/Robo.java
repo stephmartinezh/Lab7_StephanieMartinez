@@ -1,8 +1,7 @@
-
 package lab7_stephaniemartinez;
 
-
 public class Robo extends Delitos {
+
     String nombre;
     int valor;
 
@@ -10,8 +9,8 @@ public class Robo extends Delitos {
         super();
     }
 
-    public Robo(String nombre, int valor, String descripcion, String lgm, boolean culpable) {
-        super(descripcion, lgm, culpable);
+    public Robo(String nombre, int valor, String descripcion, String lgm, String culpable, String fin) {
+        super(descripcion, lgm, culpable, fin);
         this.nombre = nombre;
         this.valor = valor;
     }
@@ -30,12 +29,11 @@ public class Robo extends Delitos {
 
     @Override
     public String toString() {
-        return "Robo{" + "nombre=" + nombre + ", valor=" + valor + '}';
+        return "Robo: " + nombre + ", " + valor;
     }
 
-    
     public void setValor(int valor) {
         this.valor = valor;
     }
-    
+
 }
